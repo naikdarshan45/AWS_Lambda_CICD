@@ -48,7 +48,7 @@ jobs:
     - name: Deploy to AWS Lambda
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AKIA6OPTJEJL4IMF6R65 }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.xNfob/jPQDNLTTYim/sVBt/P86hGlaqB2r8sEced }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.P86hGlaqB2r8sEced }}
         AWS_DEFAULT_REGION: us-east-1
       run: |
         FUNCTION_NAME="cicd_lambda_${{ github.ref_name }}"
